@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo del Balì</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.webp">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/attivita.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+
+        <!-- MENU -->
+        <div class="row d-flex align-items-center px-3 py-3 m-0 navbar-row">
+
+            <!-- logo -->
+            <div class="col-4 col-md-4">
+                <div class="logo">
+                    <img src="img/logo_menu.svg" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-7 col-md-3"></div>
+
+            <!-- desktop menu -->
+            <div class="col-1 col-md-5 d-none d-md-flex justify-content-end">
+                <div class="lista list-unstyled d-flex m-0 p-0">
+                    <ul>
+                        <li><a href="index.html" class="font-size-menù home">HOME</a></li>
+                        <li><a href="visita.html" class="font-size-menù menù-visita">VISITA</a></li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                                <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                                    creativi</a>
+                                <a href="lab-planetario-osservatorio.html#planetario"
+                                    class="dropdown-item">planetario</a>
+                                <a href="lab-planetario-osservatorio.html#osservatorio"
+                                    class="dropdown-item">osservatorio</a>
+                            </div>
+                        </li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-scuole">SCUOLE</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                                <a href="alternanza-scuola-lavoro.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                            </div>
+                        </li>
+
+                        <li><a href="storico.html" class="font-size-menù menù-storico">STORICO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- hamburger -->
+            <div class="col-1 d-md-none d-flex justify-content-end mobile-menù">
+                <img src="img/menu-hamburger-svgrepo-com.svg" alt="menu" class="hamburger" id="menuToggle">
+            </div>
+
+            <!-- mobile menu -->
+            <div id="mobileMenu" class="mobile-menu d-md-none">
+                <a href="index.html" class="font-size-menù home">HOME</a>
+                <a href="visita.html" class="font-size-menù menù-visita">VISITA</a>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                    <div class="dropdown-menu">
+                        <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                        <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                            creativi</a>
+                        <a href="lab-planetario-osservatorio.html#planetario" class="dropdown-item">planetario</a>
+                        <a href="lab-planetario-osservatorio.html#osservatorio" class="dropdown-item">osservatorio</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-scuole">SCUOLE</span>
+                    <div class="dropdown-menu">
+                        <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                        <a href="alternanza-scuola-lavoro.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                    </div>
+                </div>
+
+                <a href="storico.html" class="font-size-menù menù-storico">STORICO</a>
+            </div>
+
+        </div>
+
+
+        <!-- laboratori -->
+        <div class="row align-items-start justify-content-start sfondo-attività padding-top padding-bottom"
+            id="laboratori">
+            <div class="col-12 col-md-5 padding-top">
+                <div class="margine-sinistro margine-destro-mobile">
+                    <p class="font-size-titoli">LABORATORI CREATIVI</p>
+                    <p class="font-size-sottotitoli-attività"> Diversi locali della villa del Balì sono adibiti a
+                        laboratori temporanei in cui sperimentare, liberando la creatività ed il pensiero critico.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1 padding-bottom padding-top">
+                <div class="margine-destro">
+                    <p class="font-size-paragrafi">
+                        Il museo organizza laboratori per sperimentare la scienza divertendosi. Durante queste attività
+                        è possibile <span class="font-size-paragrafi-attività">costruire oggetti con materiali di
+                            recupero</span>, <span class="font-size-paragrafi-attività">risolvere enigmi e
+                            labirinti</span>, <span class="font-size-paragrafi-attività">creare piccoli gadget da
+                            portare a casa</span> e <span class="font-size-paragrafi-attività">assistere a spettacoli
+                            scientifici</span>.
+                        I laboratori si svolgono in giorni speciali (guarda le news per sapere quando).
+                        Sono adatti sia a bambini che ad adulti.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- lab foto -->
+        <div class="row scelta-pagine-container align-items-center justify-items-center m-0">
+            <div class="col-12 col-md-4 margin-bottom-mobile">
+                <div class="scelta-pagine">
+                    <img src="img/laboratori.webp" class="img-fluid" alt="foto-visita">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 margin-bottom-mobile">
+                <div class="scelta-pagine">
+                    <img src="img/laboratori_1.webp" class="img-fluid" alt="foto-attività">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="scelta-pagine">
+                    <img src="img/laboratori_2.webp" class="img-fluid" alt="foto-scuole">
+                </div>
+            </div>
+        </div>
+
+        <!-- planetario -->
+        <div class="row align-items-start justify-content-start sfondo-attività padding-top padding-bottom m-0"
+            id="planetario">
+            <div class="col-12 col-md-5 padding-top">
+                <div class="margine-sinistro margine-destro-mobile">
+                    <p class="font-size-titoli">PLANETARIO</p>
+                    <p class="font-size-sottotitoli-attività"> Sotto la grande cupola di 8 metri di diametro è possibile
+                        ammirare la simulazione del nostro affascinante ed incantevole cielo stellato.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1 padding-bottom padding-top">
+                <div class="margine-destro">
+                    <p class="font-size-paragrafi">
+                        Il planetario digitale permette di esplorare l’astronomia in modo spettacolare: dal <span
+                            class="font-size-paragrafi-attività">cielo stellato con le sue costellazioni e figure
+                            mitologiche</span>, a <span class="font-size-paragrafi-attività">viaggi immersivi tra
+                            nebulose, galassie e buchi neri</span>, fino al <span
+                            class="font-size-paragrafi-attività">sorvolo dei pianeti come a bordo di una navicella
+                            spaziale</span>. Il planetario è dedicato a Giuseppe Occhialini, astrofisico di Fossombrone,
+                        e ha una capienza di 60 persone.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- planetario foto -->
+        <div class="row scelta-pagine-container align-items-center justify-items-center m-0">
+            <div class="col-12 col-md-4 margin-bottom-mobile">
+                <div class="scelta-pagine">
+                    <img src="img/planetario.webp" class="img-fluid" alt="foto-visita">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="scelta-pagine">
+                    <img src="img/planetario_1.webp" class="img-fluid" alt="foto-attività">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="scelta-pagine">
+                    <img src="img/planetario_2.webp" class="img-fluid margin-top-mobile" alt="foto-scuole">
+                </div>
+            </div>
+        </div>
+
+        <!-- osservatorio -->
+        <div class="row align-items-start justify-content-start sfondo-attività padding-top padding-bottom m-0"
+            id="osservatorio">
+            <div class="col-12 col-md-5 padding-top">
+                <div class="margine-sinistro margine-destro-mobile">
+                    <p class="font-size-titoli">OSSERVATORIO</p>
+                    <p class="font-size-sottotitoli-attività">Azzerare le distanze tra noi e l’immensa volta celeste,
+                        dando uno sguardo ravvicinato a pianeti, galassie e nebulose</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1 padding-bottom padding-top">
+                <div class="margine-destro">
+                    <p class="font-size-paragrafi">
+                        L’osservatorio astronomico Franco Pacini, situato nel parco, permette di <span
+                            class="font-size-paragrafi-attività">osservare la Luna, i pianeti e molti altri oggetti
+                            celesti</span> grazie a un telescopio Ritchey-Chrétien da 40 cm e a due strumenti Coronado
+                        dedicati all’osservazione del Sole. È un’esperienza adatta a tutti — famiglie, appassionati e
+                        ricercatori — e può svolgersi in due modalità: <span class="font-size-paragrafi-attività">quando
+                            il museo è aperto</span>, l’osservazione è inclusa al calar del buio (se le condizioni meteo
+                        lo permettono); <span class="font-size-paragrafi-attività">quando il museo è chiuso</span>,
+                        vengono organizzate serate dedicate con biglietto che comprende l’uso dei telescopi e attività
+                        di divulgazione, con recupero in caso di maltempo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- osservatorio foto -->
+        <div class="row scelta-pagine-container align-items-center justify-items-center m-0">
+            <div class="col-12 col-md-4 margin-bottom-mobile">
+                <div class="scelta-pagine">
+                    <img src="img/osservatorio.webp" class="img-fluid" alt="foto-visita">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="scelta-pagine">
+                    <img src="img/osservatorio_1.webp" class="img-fluid" alt="foto-attività">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="scelta-pagine">
+                    <img src="img/osservatorio_2.webp" class="img-fluid margin-top-mobile" alt="foto-scuole">
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row d-flex pb-5 pt-5 m-0 navbar-row footer">
+
+            <div class="col-2 col-md-2 offset-md-1">
+                <div class="logo">
+                    <img src="img/logo_footer.webp" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Info</strong></li>
+                    <li><a href="caffe-del-bali.html">Il Caffè del Balì</a></li>
+                    <li><a href="lavora-con-noi.html">Lavora con noi</a></li>
+                    <li><a href="alternanza-scuola-lavoro.html">Alternanza scuola/lavoro</a></li>
+                    <li><a href="compleanni.html">Compleanni</a></li>
+                    <li><a href="noleggio-struttura.html">Noleggio struttura</a></li>
+                </ul>
+            </div>
+
+            <!-- Contatti -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Contatti</strong></li>
+                    <li>Fondazione "Villa del<br> Balì"</li>
+                    <li><a href="https://www.google.it/maps/place/Museo+del+Bal%C3%AC">Loc San Martino snc<br>61036
+                            Colli al Metauro (PU)</a></li>
+                    <li><a href="tel:+0721892390">0721 892390</a></li>
+                    <li><a href="mailto:info@museodelbali.it">info@museodelbali.it</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Social</strong></li>
+                    <li><a href="https://www.facebook.com/museodelbali">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/museodelbali/">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/user/museodelbali">Youtube</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- SCROLL UP BUTTON -->
+        <a href="#" id="scrollUpButton" title="Torna su">&#9650;</a>
+
+    </div>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Toggle dropdown in mobile menu
+        const dropdowns = document.querySelectorAll('.mobile-menu .dropdown > span');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+
+        const scrollButton = document.getElementById('scrollUpButton');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {  // compare dopo 100px di scroll
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        });
+        scrollButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+/*
+====================================
+1. BACKGROUND & SEZIONI PRINCIPALI
+====================================
+*/
+
+/* Background principale della sezione attività */
+.bg-sale-interattive {
+    max-width: 100%;
+    height: 70vh;
+    background-image: url('../img/sale-interattive.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sfondo di contorno per la sezione attività */
+.sfondo-attività {
+    background-color: rgba(249, 164, 180, 0.3);
+    padding: 40px 0;
+}
+
+.rettangolo-bianco {
+    background-color: white;
+    min-height: 50vh;
+    width: calc(100% - 80px);
+    /* Sottrae i margini laterali */
+    margin: 0px 40px 40px 40px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.foto-specifiche-sale {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/*
+====================================
+2. TIPOGRAFIA (Colori e Font Attività)
+====================================
+*/
+
+/* Sottotitoli specifici per le attività */
+.font-size-sottotitoli-attività {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    color: #DB3051;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Paragrafi specifici per le attività */
+.font-size-paragrafi-attività {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    color: #DB3051;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Testo boldizzato nel contesto attività/paragrafi */
+.bold-testi {
+    color: #DB3051;
+    font-weight: bold;
+}
+
+/* Testi descrittivi sotto le immagini delle attività */
+.scritte-attività {
+    padding-top: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color: #DB3051;
+    font-weight: 600;
+    text-align: left;
+}
+
+.overlay-text .titoli-sale {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.overlay-text .titoli-sale:hover {
+    text-decoration: none !important;
+    color: white;
+    /* Mantiene il testo bianco anche in hover */
+}
+
+/*
+====================================
+3. COMPONENTI INTERATTIVI (Overlay Immagini)
+====================================
+*/
+
+/* Contenitore generale per l'immagine e l'overlay */
+.sala-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 40vh;
+}
+
+/* Trova questa e cambia height da auto a 100% */
+.sala-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.sala-container:hover img {
+    transform: scale(1.1);
+}
+
+/* Livello di overlay (inizialmente trasparente) */
+.sala-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+/* Effetto al passaggio del mouse */
+.sala-container:hover .sala-overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Testo dell'overlay (inizialmente nascosto) */
+.overlay-text {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.sala-container:hover .overlay-text {
+    opacity: 1;
+}
+
+.overlay-text h3 {
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.overlay-text p {
+    color: white;
+    font-size: 1em;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+/* Effetto filtro grigio */
+.sala-container:hover .filtro-grigio {
+    filter: grayscale(0%);
+}
+
+a.titoli-sale:hover {
+    text-decoration: none !important;
+}
+
+/*
+====================================
+4. UTILITY & SPAZIATURA
+====================================
+*/
+
+.scelta-sale {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+a.frecce-bottoni {
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #DB3051;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.frecce-bottoni:hover {
+    background-color: white;
+    color: #DB3051;
+    text-decoration: underline;
+    border: 2px solid #DB3051;
+}
+
+/*
+====================================
+5. MEDIA QUERIES
+====================================
+*/
+
+@media (max-width: 480px) {
+    .font-size-sottotitoli-attività {
+        font-size: 18px;
+    }
+
+    .font-size-paragrafi {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .font-size-paragrafi-attività {
+        font-size: 14px;
+    }
+
+    .overlay-text .titoli-sale {
+        font-size: 20px;
+    }
+
+    .foto-specifiche-sale {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .sfondo-attività {
+        padding: 0;
+    }
+
+    .sfondo-attivita-home {
+        padding: 40px 0;
+    }
+    
+    .font-size-paragrafi {
+    padding-left: 40px;
+}
+}
+
+.scelta-pagine-1,
+.img-fluid-1 {
+    width: 20vh;
+    height: auto;
+}
+
+.scelta-pagine-1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sfondo-attivita-home {
+    background-color: black;
+    padding: 80px 0;
+}
+
+

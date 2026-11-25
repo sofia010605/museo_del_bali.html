@@ -1,0 +1,649 @@
+/* ==================================================
+   FONT DI BASE
+================================================== */
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* ==================================================
+   SEZIONE SCUOLE – TARIFFE
+================================================== */
+.sezione-scuole-bg {
+    background-color: rgba(126, 207, 207, 0.3);
+    /* Colore più chiaro della palette con opacità 30% */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.sezione-scuole-bg p {
+    font-size: 18px;
+}
+
+.sezione-scuole-bg h1 {
+    font-size: 32px;
+}
+
+.padding-left {
+    padding-left: 40px;
+}
+
+.padding-right {
+    padding-right: 40px;
+}
+
+.padding-bottom {
+    padding-bottom: 40px;
+}
+
+.strong-scuole {
+    color: #286b6b;
+    font-weight: 800;
+}
+
+/* ==================================================
+   BOX VISUALIZZA E COMPILA
+================================================== */
+.box-organizza {
+    background-color: white;
+    padding: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.box-organizza h2 {
+    font-size: 24px;
+}
+
+.box-organizza a {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+}
+
+.box-organizza a:hover {
+    opacity: 0.7;
+}
+
+/* ==================================================
+   BLOCCO "2 ORE"
+================================================== */
+.sfondo {
+    background: white;
+    padding: 40px;
+}
+
+.sfondo-3 {
+    background: white;
+    padding: 40px 0 40px 28px;
+}
+
+.sfondo-4 {
+    background: white;
+    padding: 40px 28px 40px 0;
+}
+
+.sfondo-azzurro {
+    background: #379D9D;
+    /* Quarto colore della palette */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.scritta-2-ore {
+    color: white;
+    /* Cambiato a bianco per leggibilità su sfondo #379D9D */
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.blocco-3-4-ore .sfondo {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ==================================================
+   CARD
+================================================== */
+.card-azzurra-opaca {
+    background-color: rgba(126, 207, 207, 0.3) !important;
+    /* Colore più chiaro con opacità 30% */
+    border: none !important;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.prezzo-card {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+/* ==================================================
+   IMMAGINI NELLE CARD - DIMENSIONI UNIFORMI
+================================================== */
+.card-azzurra-opaca img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    margin-bottom: 0.5rem !important;
+    display: block !important;
+}
+
+/* ==================================================
+   BOTTONE PRENOTA
+================================================== */
+.btn-prenota {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #379D9D;
+    /* Quarto colore della palette */
+    color: #fff;
+    border: #379D9D 3px solid;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.btn-prenota:hover {
+    background-color: #fff;
+    border: #379D9D 3px solid;
+    color: #379D9D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* ==================================================
+   SEZIONE PACCHETTI – SFONDI
+================================================== */
+.sezione-pacchetti-bg {
+    background-color: rgba(126, 207, 207, 0.3);
+    padding: 40px 0;
+}
+
+/* ==================================================
+   RESPONSIVE – MOBILE
+================================================== */
+@media (max-width: 768px) {
+    .sezione-scuole-bg h1 {
+        font-size: 28px;
+    }
+
+    .sezione-scuole-bg p {
+        font-size: 14px;
+    }
+
+    .box-organizza h2 {
+        font-size: 18px;
+    }
+
+    .scritta-2-ore {
+        font-size: 36px;
+    }
+
+    .prezzo-card,
+    .box-organizza a {
+        font-size: 14px;
+    }
+}
+
+.font-size-sottotitoli-scuole {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    color: #286b6b;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* ==================================================
+   ALTERNANZA
+================================================== */
+
+/* Spaziatura generale della sezione */
+.intro-pcto {
+    background-color: #ffffff;
+    /* Sfondo bianco come in foto */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sezione-liceo {
+    margin-bottom: 40px;
+}
+
+/* Stile del Titolo H1 */
+.titolo-pcto {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000000;
+    text-transform: uppercase;
+    /* Per avere tutto in maiuscolo come in foto */
+}
+
+/* Stile del Paragrafo */
+.descrizione-pcto {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* Responsive: su mobile riduciamo un po' il font del titolo */
+@media (max-width: 768px) {
+    .titolo-pcto {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .sezione-scuole-bg .col-12 {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        margin: 0 !important;
+        text-align: left;
+        justify-content: center !important;
+    }
+
+    .sezione-scuole-bg p {
+        text-align: left !important;
+    }
+
+    .sezione-scuole-bg h1 {
+        text-align: left !important;
+    }
+
+    /* TITOLI */
+    h1,
+    .titolo-pcto,
+    .font-size-sottotitoli-visita {
+        font-size: 24px !important;
+        line-height: 1.2;
+    }
+
+    /* SOTTOTITOLI */
+    h2,
+    h3,
+    .font-size-sottotitoli-scuole,
+    .sottotitolo-biglietti {
+        font-size: 18px !important;
+        line-height: 1.3;
+    }
+
+    /* PARAGRAFI */
+    p,
+    .descrizione-pcto,
+    .sezione-scuole-bg p {
+        font-size: 14px !important;
+        line-height: 1.6;
+    }
+}
+
+/* Box colorato verde acqua */
+.box-liceo {
+    background-color: rgba(126, 207, 207, 0.3);
+    /* Colore più chiaro con opacità 30% */
+    border-radius: 8px;
+    /* Angoli smussati come nel design */
+    transition: transform 0.3s ease;
+    /* Effetto leggero al passaggio del mouse */
+}
+
+/* Applica il colore verde acqua a tutte le icone SVG caricate come <img> */
+.icona-svg {
+    max-width: 100px;
+    height: auto;
+    /* Trasforma il nero dell'icona originale nel colore #379D9D */
+    filter: invert(49%) sepia(24%) saturate(1157%) hue-rotate(130deg) brightness(91%) contrast(88%);
+}
+
+/* Spaziatura e stile della sezione bianca finale */
+.invito-finale-scuole {
+    background-color: #ffffff;
+    /* Sfondo bianco */
+    padding-top: 40px;
+    /* Spazio sopra la scritta */
+    padding-bottom: 90px;
+    /* Spazio generoso sotto, prima del footer nero */
+}
+
+/* Stile del testo centrato */
+.testo-invito {
+    font-family: 'Comfortaa', cursive, sans-serif;
+    /* Font simile a quello del museo */
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0 auto;
+    max-width: 900px;
+    /* Evita che il testo diventi troppo lungo su schermi larghi */
+    text-align: center;
+}
+
+/* Colore celeste per le parole chiave */
+.evidenza-celeste {
+    color: #286b6b;
+    /* Quarto colore della palette */
+    font-weight: 500;
+}
+
+/* ===============================
+   CSS VARIABLES
+================================ */
+:root {
+    --bali-orange: #379D9D;
+    --bali-orange-dark: #379D9D;
+    --bali-green: #2ecc71;
+    --bali-red: #e74c3c;
+    --bali-bg-soft: rgba(126, 207, 207, 0.3);
+}
+
+/* ===============================
+   TYPOGRAPHY - CLASSI UNICHE
+================================ */
+.font-size-sottotitoli-visita {
+    font-weight: bold;
+    font-size: 32px;
+    color: #379D9D;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sottotitolo-biglietti {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #379D9D;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+.hero {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===============================
+   MUSEUM SECTIONS
+================================ */
+.museum-planetario {
+    background-color: rgba(126, 207, 207, 0.3);
+    width: 100%;
+}
+
+.museum-planetario p span {
+    color: #379D9D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.museum-osservatorio p span {
+    color: #379D9D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* ===============================
+   LISTE
+================================ */
+.col-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* ===============================
+   BOOK BUTTONS
+================================ */
+.book-button {
+    display: block;
+    padding: 12px 24px;
+    background-color: #379D9D;
+    color: #fff;
+    border: #379D9D 3px solid;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.book-button:hover {
+    background-color: #fff;
+    border: #379D9D 3px solid;
+    color: #379D9D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Gestione dello spazio centrale di 40px */
+.row-booking {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.row-booking .col-6 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.row-booking .col-6:nth-child(odd) {
+    justify-content: flex-end;
+}
+
+.row-booking .col-6:nth-child(even) {
+    justify-content: flex-start;
+}
+
+/* ===============================
+   PADDING E STRUTTURA
+================================ */
+.padding-generale {
+    padding: 40px;
+}
+
+.padding-row {
+    padding: 80px 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.padding-top {
+    padding-top: 40px;
+}
+
+.row-bianco {
+    background-color: white;
+    min-height: 70vh;
+    padding: 40px;
+}
+
+.row-bianco .booking-container {
+    background-color: rgba(126, 207, 207, 0.3) !important;
+    margin: 0 auto !important;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.font-arancione {
+    font-weight: bold;
+    color: #379D9D;
+}
+
+.bg-arancione {
+    background-color: rgba(126, 207, 207, 0.3);
+    width: 100%;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.img-fluid-1 {
+    width: 20vh;
+    height: auto;
+}
+
+.padding-bottom-card {
+    padding-bottom: 40px;
+}
+
+/* =================================
+   SPAZIATURA LICEI MOBILE
+================================= */
+@media (max-width: 768px) {
+    /* spazio tra un box e l'altro */
+    .sezione-liceo {
+        margin-bottom: 40px;
+    }
+
+    /* spazio interno del box (se vuoi mantenerlo coerente) */
+    .box-liceo {
+        padding: 40px 20px;
+    }
+
+    /* ==================================================
+       MEDIA QUERIES - MOBILE (Focus Parte Iniziale)
+    ================================================== */
+
+    /* 1. SEZIONE INTRODUTTIVA: Padding 40px dai confini pagina */
+    .intro-pcto {
+        padding: 40px 40px 40px 40px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 2. CENTRAGGIO TITOLO E TESTO */
+    .intro-pcto .row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    /* Forza le colonne a ignorare la larghezza bootstrap e centrarsi */
+    .intro-pcto .col-12,
+    .intro-pcto .col-md-5,
+    .intro-pcto .col-md-7 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* 3. MARGINE 40px TRA TITOLO E TESTO */
+    .titolo-pcto {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        margin-top: 0 !important;
+        line-height: 1.2;
+    }
+
+    .descrizione-pcto {
+        font-size: 16px !important;
+        line-height: 1.6;
+        margin-bottom: 0 !important;
+    }
+
+    /* Rimuove i <br> per permettere al testo di fluire naturalmente centrandosi */
+    .descrizione-pcto br {
+        display: none;
+    }
+
+    /* Reset della riga per evitare spostamenti laterali */
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .padding-top-mobile {
+        padding: 40px;
+    }
+
+    .padding-right-mobile {
+        padding-right: 40px;
+    }
+
+    .margin-bottom-mobile {
+        margin-bottom: 40px;
+    }
+
+    .padding-left-mobile {
+        padding-left: 40px;
+    }
+
+    .padding-bottom-card {
+        padding-bottom: 0px;
+    }
+
+    .margin-right-mobile {
+        margin-right: 40px;
+    }
+
+    .margin-left-mobile {
+        margin-left: 40px;
+    }
+
+    .col-12.col-md-2.offset-md-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+.margin-left {
+    margin-left: 40px;
+}
+
+.margin-right {
+    margin-right: 40px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.padding-top-large {
+    padding-top: 80px;
+}
+
+.padding-bottom-large {
+    padding-bottom: 80px;
+}
+
+.booking-container {
+    background-color: rgba(126, 207, 207, 0.3);
+    width: 100%;
+}

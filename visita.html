@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo del Balì-Visita</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/visita.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-0 m-0">
+
+        <!-- MENU -->
+        <div class="row d-flex align-items-center px-3 py-3 m-0 navbar-row">
+
+            <!-- logo -->
+            <div class="col-4 col-md-4">
+                <div class="logo">
+                    <img src="img/logo_menu.svg" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-7 col-md-3"></div>
+
+            <!-- desktop menu -->
+            <div class="col-1 col-md-5 d-none d-md-flex justify-content-end">
+                <div class="lista list-unstyled d-flex m-0 p-0">
+                    <ul>
+                        <li><a href="index.html" class="font-size-menù home">HOME</a></li>
+                        <li><a href="visita.html" class="font-size-menù menù-visita">VISITA</a></li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                                <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                                    creativi</a>
+                                <a href="lab-planetario-osservatorio.html#planetario"
+                                    class="dropdown-item">planetario</a>
+                                <a href="lab-planetario-osservatorio.html#osservatorio"
+                                    class="dropdown-item">osservatorio</a>
+                            </div>
+                        </li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-scuole">SCUOLE</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                                <a href="alternanza.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                            </div>
+                        </li>
+
+                        <li><a href="storico.html" class="font-size-menù menù-storico">STORICO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- hamburger -->
+            <div class="col-1 d-md-none d-flex justify-content-end mobile-menù">
+                <img src="img/menu-hamburger-svgrepo-com.svg" alt="menu" class="hamburger" id="menuToggle"
+                    style="cursor: pointer; width: 40px;">
+            </div>
+
+            <!-- mobile menu -->
+            <div id="mobileMenu" class="mobile-menu d-md-none">
+                <a href="index.html" class="font-size-menù home">HOME</a>
+                <a href="visita.html" class="font-size-menù menù-visita">VISITA</a>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                    <div class="dropdown-menu">
+                        <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                        <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                            creativi</a>
+                        <a href="lab-planetario-osservatorio.html#planetario" class="dropdown-item">planetario</a>
+                        <a href="lab-planetario-osservatorio.html#osservatorio" class="dropdown-item">osservatorio</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-scuole">SCUOLE</span>
+                    <div class="dropdown-menu">
+                        <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                        <a href="alternanza.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                    </div>
+                </div>
+
+                <a href="storico.html" class="font-size-menù menù-storico">STORICO</a>
+            </div>
+
+        </div>
+        <!--Parte centrale-->
+
+        <!-- Hero -->
+        <div class="hero">
+            <img src="img/visita_museo.webp" alt="Gruppo di visitatori davanti all'ingresso del museo">
+        </div>
+
+        <div class="row align-items-start padding-row museum-planetario">
+            <div class="col-12 col-md-6 p-0">
+                <h2 class="font-size-titoli">BIGLIETTI AL PUBBLICO</h2>
+            </div>
+
+            <div class="col-12 col-md-5 offset-md-1 p-0">
+                <p class="font-size-paragrafi">
+                    La prenotazione è fortemente consigliata. Non siamo in
+                    grado di garantire l'ingresso senza prenotazione per via
+                    del numero limitato di visitatori stabilito per ogni ingresso.
+                    Scegli data e orario di visita e prenota qui sotto. Al
+                    momento della prenotazione è obbligatorio pagare anche
+                    il biglietto di ingresso.
+                </p>
+            </div>
+        </div>
+
+        <div class="ticket-type-box museum-osservatorio">
+
+            <div class="row padding-left padding-right padding-top padding-bottom">
+
+                <div class="col-12 col-md-6 padding-bottom-mobile">
+
+                    <div class="col-text font-size-paragrafi">
+                        <h3 class="font-size-sottotitoli-visita margin-bottom">MUSEO + PLANETARIO</h3>
+
+                        <p>
+                            Il biglietto permette di visitare le sale con postazione interattive e
+                            assistere allo spettacolo al planetario (simulazione del cielo stellato).
+                            <br>
+                            Durata totale: <span>2 ore.</span><br>
+                            - 9 sale espositive<br>
+                            - 50 postazioni interattive da usare liberamente<br>
+                            - Spettacolo al planetario digitale<br>
+                            - "Vietato NON toccare!" - esperienza hands-on<br>
+                        </p><br>
+
+                        <p>
+                            <span>Tariffe:</span><br>
+                            <strong>Biglietto intero</strong>: 12€<br>
+                            <strong>Biglietto ridotto</strong>: 7€<br>
+                            Ragazzi dai 6 ai 17 anni<br>
+                            <strong>Biglietto ridotto</strong>: 10€<br>
+                            - Over 65<br>
+                            - Convenzionati: tesserati Ente Carnevalesca Fano 2024, soci Touring Club Italia,
+                            Mondoparchi, PlainAir, tessere APC Gold, ViviCamper e altre convenzioni (con
+                            presentazione tessera/biglietto)<br>
+                        </p><br>
+
+                        <p>
+                            <span>Ingresso gratuito:</span><br>
+                            - Bambini 3-5 anni<br>
+                            - Soci Touring Club Junior (con adulto pagante)<br>
+                            - Persone con legge 104 art. 3 comma 3 + accompagnatore<br>
+                            - Bambini fino 11 anni con tessera Viviparchi (max 2 bambini, ciascuno con adulto
+                            pagante intero)<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12 offset-md-1">
+                    <div class="col-media">
+
+                        <div class="text-center">
+                            <img src="img/museo.webp" alt="Immagine dell'edificio del museo" class="img-fluid">
+                            <a href="museo-planetario.html"
+                                class="bottone-visita d-inline-block text-decoration-none margin-top margin-bottom">
+                                PRENOTA
+                            </a>
+                        </div>
+                        <div class="attention-box">
+                            <p> <span>ATTENZIONE:</span> i biglietti dei bambini sotto i 3 anni non
+                                sono prenotabili.
+                                <br>
+                                <span class="testo">I biglietti non sono rimborsabili.</span> È possibile modificare la
+                                data o annullare la visita solo avvisando prima dell'orario
+                                di ingresso.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ticket-type-box museum-planetario">
+
+            <div class="row padding-left padding-right padding-bottom padding-top">
+
+                <div class="col-md-6 col-12">
+
+                    <div class="col-text font-size-paragrafi padding-bottom-mobile">
+                        <h3 class="font-size-sottotitoli-visita margin-bottom">OSSERVATORIO</h3>
+
+                        <p>
+                            Serata dedicata all'astronomia con osservazione guidata del cielo<br>
+                            attraverso i telescopi dell'osservatorio. Include anche lo spettacolo al<br>
+                            planetario prima dell'osservazione. <span class="testo">NON include la visita al museo.</span><br>
+                            - Spettacolo al planetario<br>
+                            - Osservazione guidata agli oggetti celesti più belli del mese<br>
+                            - Esperti del museo ti accompagnano nell'esplorazione del cosmo<br>
+                            - Utilizzo di strumentazione semiprofessionale<br>
+                            - Un'esperienza unica per "accorciare le distanze tra te e le stelle"
+                        </p><br>
+                        <p>
+                            <span>Quando:</span><br>
+                            Serate a settembre
+                        </p><br>
+                        <p>
+                            <span>Tariffe:</span><br>
+                            - Biglietto intero: 12€ <br>
+                            - Biglietto junior: 7€ <br>
+                        </p><br>
+                        <p>
+                            <span>Numero minimo per attivare la serata: 10 partecipanti!</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-1 col-12 padding-bottom-mobile">
+                    <div class="col-media">
+                        <div class="text-center">
+                            <img src="img/osservatorio.webp" alt="Immagine dell'osservatorio" class="img-fluid">
+                            <a href="osservatorio.html"
+                                class="bottone-visita d-inline-block text-decoration-none margin-top margin-bottom">
+                                PRENOTA
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="row d-flex pb-5 pt-5 m-0 navbar-row footer">
+
+            <div class="col-2 col-md-2 offset-md-1">
+                <div class="logo">
+                    <img src="img/logo_footer.webp" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Info</strong></li>
+                    <li><a href="#">Il Caffè del Balì</a></li>
+                    <li><a href="#">Lavora con noi</a></li>
+                    <li><a href="#">Alternanza scuola/lavoro</a></li>
+                    <li><a href="#">Compleanni</a></li>
+                    <li><a href="#">Noleggio struttura</a></li>
+                </ul>
+            </div>
+
+            <!-- Contatti -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Contatti</strong></li>
+                    <li>Fondazione "Villa del<br> Balì"</li>
+                    <li><a href="https://www.google.it/maps/place/Museo+del+Bal%C3%AC">Loc San Martino snc<br>61036
+                            Colli al Metauro (PU)</a></li>
+                    <li><a href="tel:+0721892390">0721 892390</a></li>
+                    <li><a href="mailto:info@museodelbali.it">info@museodelbali.it</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Social</strong></li>
+                    <li><a href="https://www.facebook.com/museodelbali">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/museodelbali/">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/user/museodelbali">Youtube</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Toggle dropdown in mobile menu
+        const dropdowns = document.querySelectorAll('.mobile-menu .dropdown > span');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle('open');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

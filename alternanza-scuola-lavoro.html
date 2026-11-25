@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo del Balì</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scuole.css">
+
+    <style>
+        /* Dropdown mobile */
+        .mobile-menu .dropdown .dropdown-menu {
+            display: none;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        .mobile-menu .dropdown.open .dropdown-menu {
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid p-0 m-0">
+
+        <!-- MENU -->
+        <div class="row d-flex align-items-center px-3 py-3 m-0 navbar-row">
+
+            <!-- logo -->
+            <div class="col-4 col-md-4">
+                <div class="logo">
+                    <img src="img/logo_menu.svg" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-7 col-md-3"></div>
+
+            <!-- desktop menu -->
+            <div class="col-1 col-md-5 d-none d-md-flex justify-content-end">
+                <div class="lista list-unstyled d-flex m-0 p-0">
+                    <ul>
+                        <li><a href="index.html" class="font-size-menù home">HOME</a></li>
+                        <li><a href="visita.html" class="font-size-menù menù-visita">VISITA</a></li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                                <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                                    creativi</a>
+                                <a href="lab-planetario-osservatorio.html#planetario"
+                                    class="dropdown-item">planetario</a>
+                                <a href="lab-planetario-osservatorio.html#osservatorio"
+                                    class="dropdown-item">osservatorio</a>
+                            </div>
+                        </li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-scuole">SCUOLE</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                                <a href="alternanza.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                            </div>
+                        </li>
+
+                        <li><a href="storico.html" class="font-size-menù menù-storico">STORICO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- hamburger -->
+            <div class="col-1 d-md-none d-flex justify-content-end mobile-menù">
+                <img src="img/menu-hamburger-svgrepo-com.svg" alt="menu" class="img-fluid" id="menuToggle"
+                    style="cursor: pointer; width: 30px;">
+            </div>
+
+            <!-- mobile menu -->
+            <div id="mobileMenu" class="mobile-menu d-md-none">
+                <a href="index.html" class="font-size-menù home">HOME</a>
+                <a href="visita.html" class="font-size-menù menù-visita">VISITA</a>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                    <div class="dropdown-menu">
+                        <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                        <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                            creativi</a>
+                        <a href="lab-planetario-osservatorio.html#planetario" class="dropdown-item">planetario</a>
+                        <a href="lab-planetario-osservatorio.html#osservatorio" class="dropdown-item">osservatorio</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-scuole">SCUOLE</span>
+                    <div class="dropdown-menu">
+                        <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                        <a href="alternanza.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                    </div>
+                </div>
+
+                <a href="storico.html" class="font-size-menù menù-storico">STORICO</a>
+            </div>
+
+        </div>
+
+
+        <main>
+            <div class="row align-items-start padding-top-large padding-bottom-large padding-left padding-right">
+                <div class="col-12 col-md-5">
+                    <h1 class="font-size-titoli padding-bottom-mobile">PCTO - ALTERNANZA SCUOLA LAVORO</h1>
+                </div>
+
+                <div class="col-12 col-md-6 offset-md-1">
+                    <p class="font-size-paragrafi">
+                        Il Museo del Balì offre progetti <span class="strong-scuole">PCTO</span> di
+                        <span class="strong-scuole">alternanza</span><br>
+                        <span class="strong-scuole">scuola-lavoro</span> pensati per avvicinare gli studenti
+                        alle attività
+                        professionali del museo.
+                        Le <span class="strong-scuole">proposte</span> vengono <span class="strong-scuole">adattate
+                            ai diversi
+                            indirizzi scolastici</span> e
+                        permettono ai ragazzi di fare esperienza concreta in un contesto reale.
+                    </p>
+                </div>
+            </div>
+
+            <section class="sezione-liceo padding-left padding-right">
+                <div class="row align-items-center box-liceo">
+                    <div class="col-12 col-md-3 d-flex justify-content-center mb-3 mb-md-0">
+                        <img src="icone/science.svg" alt="Icona Scienza" class="img-fluid icona-svg">
+                    </div>
+
+                    <div class="col-12 col-md-9">
+                        <div>
+                            <h3 class="font-size-sottotitoli-scuole padding-top mb-4">Liceo scientifico</h3>
+                            <ul class="font-size-paragrafi padding-bottom">
+                                <li>Didattica informale e comunicazione scientifica.</li>
+                                <li>Coinvolgimento in attività con il pubblico nei weekend.</li>
+                                <li>Avvicinamento alle discipline scientifiche e possibili carriere.</li>
+                                <li>Sviluppo di competenze relazionali con pubblico e operatori.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="sezione-liceo padding-left padding-right">
+                <div class="row align-items-center box-liceo">
+                    <div class="col-12 col-md-3 d-flex justify-content-center mb-3 mb-md-0">
+                        <img src="icone/art-gallery.svg" alt="Icona Artistico" class="img-fluid icona-svg">
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div>
+                            <h3 class="font-size-sottotitoli-scuole padding-top mb-4">Liceo artistico</h3>
+                            <ul class="font-size-paragrafi padding-bottom">
+                                <li>La scienza come stimolo creativo.</li>
+                                <li>Creazione di materiali visivi per il museo (animazioni, segnaletica,
+                                    strumenti inclusivi).</li>
+                                <li>Supporto alle attività museali con produzioni artistiche.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sezione-liceo padding-left padding-right">
+                <div class="row align-items-center box-liceo">
+                    <div class="col-12 col-md-3 d-flex justify-content-center mb-3 mb-md-0">
+                        <img src="icone/food.svg" alt="Icona Alberghiero" class="img-fluid icona-svg">
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div>
+                            <h3 class="font-size-sottotitoli-scuole padding-top mb-4">Istituto alberghiero</h3>
+                            <ul class="font-size-paragrafi padding-bottom">
+                                <li>Attività di accoglienza turistica.</li>
+                                <li>Supporto al servizio bar durante le aperture al pubblico.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sezione-liceo padding-left padding-right">
+                <div class="row align-items-center box-liceo">
+                    <div class="col-12 col-md-3 d-flex justify-content-center mb-3 mb-md-0">
+                        <img src="icone/round-business-center.svg" alt="Icona Tecnico" class="img-fluid icona-svg">
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div>
+                            <h3 class="font-size-sottotitoli-scuole padding-top mb-4">Istituto tecnico-economico</h3>
+                            <ul class="font-size-paragrafi padding-bottom">
+                                <li>Supporto al dipartimento amministrativo del museo.</li>
+                                <li>Attività di contabilità e rendicontazione dei bandi.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="invito-finale-scuole">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-10">
+                        <p class="font-size-paragrafi text-center">
+                            Si invitano le scuole a <span class="evidenza-celeste">contattare</span>
+                            direttamente gli <span class="evidenza-celeste">uffici del museo</span> per
+                            approfondire che tipo di
+                            progetto è possibile attivare e con quale monte ore.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <div class="row d-flex pb-5 pt-5 m-0 navbar-row footer">
+
+                <div class="col-2 col-md-2 offset-md-1">
+                    <div class="logo">
+                        <img src="img/logo_footer.webp" alt="logo" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="col-2 col-md-2 offset-md-1">
+                    <ul class="testo-footer">
+                        <li class="titoli-footer"><strong>Info</strong></li>
+                        <li><a href="caffe-del-bali.html">Il Caffè del Balì</a></li>
+                        <li><a href="lavora-con-noi.html">Lavora con noi</a></li>
+                        <li><a href="alternanza-scuola-lavoro.html">Alternanza scuola/lavoro</a></li>
+                        <li><a href="compleanni.html">Compleanni</a></li>
+                        <li><a href="noleggio-struttura.html">Noleggio struttura</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contatti -->
+                <div class="col-2 col-md-2 offset-md-1">
+                    <ul class="testo-footer">
+                        <li class="titoli-footer"><strong>Contatti</strong></li>
+                        <li>Fondazione "Villa del<br> Balì"</li>
+                        <li><a href="https://www.google.it/maps/place/Museo+del+Bal%C3%AC">Loc San Martino
+                                snc<br>61036
+                                Colli al Metauro (PU)</a></li>
+                        <li><a href="tel:+0721892390">0721 892390</a></li>
+                        <li><a href="mailto:info@museodelbali.it">info@museodelbali.it</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social -->
+                <div class="col-2 col-md-2 offset-md-1">
+                    <ul class="testo-footer">
+                        <li class="titoli-footer"><strong>Social</strong></li>
+                        <li><a href="https://www.facebook.com/museodelbali">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/museodelbali/">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/user/museodelbali">Youtube</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- SCROLL UP BUTTON -->
+            <a href="#" id="scrollUpButton" title="Torna su">&#9650;</a>
+        </main>
+    </div>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Toggle dropdown in mobile menu
+        const dropdowns = document.querySelectorAll('.mobile-menu .dropdown > span');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+
+        const scrollButton = document.getElementById('scrollUpButton');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {  // compare dopo 100px di scroll
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        });
+        scrollButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

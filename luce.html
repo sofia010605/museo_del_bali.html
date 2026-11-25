@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo del Balì</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.webp">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/attivita.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+
+        <!-- MENU -->
+        <div class="row d-flex align-items-center px-3 py-3 m-0 navbar-row">
+
+            <!-- logo -->
+            <div class="col-4 col-md-4">
+                <div class="logo">
+                    <img src="img/logo_menu.svg" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-7 col-md-3"></div>
+
+            <!-- desktop menu -->
+            <div class="col-1 col-md-5 d-none d-md-flex justify-content-end">
+                <div class="lista list-unstyled d-flex m-0 p-0">
+                    <ul>
+                        <li><a href="index.html" class="font-size-menù home">HOME</a></li>
+                        <li><a href="visita.html" class="font-size-menù menù-visita">VISITA</a></li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                                <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                                    creativi</a>
+                                <a href="lab-planetario-osservatorio.html#planetario"
+                                    class="dropdown-item">planetario</a>
+                                <a href="lab-planetario-osservatorio.html#osservatorio"
+                                    class="dropdown-item">osservatorio</a>
+                            </div>
+                        </li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-scuole">SCUOLE</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                                <a href="alternanza-scuola-lavoro.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                            </div>
+                        </li>
+
+                        <li><a href="storico.html" class="font-size-menù menù-storico">STORICO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- hamburger -->
+            <div class="col-1 d-md-none d-flex justify-content-end mobile-menù">
+                <img src="img/menu-hamburger-svgrepo-com.svg" alt="menu" class="hamburger" id="menuToggle">
+            </div>
+
+            <!-- mobile menu -->
+            <div id="mobileMenu" class="mobile-menu d-md-none">
+                <a href="index.html" class="font-size-menù home">HOME</a>
+                <a href="visita.html" class="font-size-menù menù-visita">VISITA</a>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                    <div class="dropdown-menu">
+                        <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                        <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                            creativi</a>
+                        <a href="lab-planetario-osservatorio.html#planetario" class="dropdown-item">planetario</a>
+                        <a href="lab-planetario-osservatorio.html#osservatorio" class="dropdown-item">osservatorio</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-scuole">SCUOLE</span>
+                    <div class="dropdown-menu">
+                        <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                        <a href="alternanza-scuola-lavoro.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                    </div>
+                </div>
+
+                <a href="storico.html" class="font-size-menù menù-storico">STORICO</a>
+            </div>
+
+        </div>
+
+        <!-- scienze della terra -->
+        <div class="row align-items-start justify-content-center sfondo-attività m-0" id="laboratori">
+            <div class="col-12 col-md-6 padding-top">
+                <div class="margine-sinistro margine-destro-mobile">
+                    <p class="font-size-titoli">08 LUCE</p>
+                    <p class="font-size-sottotitoli-attività">Le splendide sfumature del nostro mondo.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1 offset-1 padding-bottom padding-top m-0">
+                <div class="margine-destro">
+                    <p class="font-size-paragrafi">
+                        Lo spettro elettromagnetico è l’insieme di tutte le onde elettromagnetiche che troviamo in
+                        natura ed è molto più esteso di quanto possiamo immaginare. I nostri occhi sono sensibili solo
+                        ad una piccola porzione di esso: sua maestà la luce! La luce è un universo intero di
+                        informazioni: siamo in grado di percepire le diverse frequenze luminose come colori differenti e
+                        i molteplici valori di ampiezza come intensità, possiamo esplorare le interazioni tra luce e
+                        materia, possiamo addirittura sperimentare l’esistenza di “luce invisibile”.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- descrizioni sale -->
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-6">
+                        <p class="font-size-sottotitoli-attività mb-2">COLORA LA TUA OMBRA</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0 ">I colori si mescolano in due modi:
+                            additivo (luci, RGB) e sottrattivo (pigmenti, CMY). La luce bianca è la somma dei tre colori
+                            additivi. Gli oggetti creano ombre colorate bloccando alcune luci. L’occhio percepisce
+                            lunghezze d’onda tra 400 e 700 nm grazie ai coni sensibili a rosso, verde e blu, combinando
+                            i quali vediamo milioni di colori.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 margin-top-mobile">
+                        <img src="img/sale-attivita/luce/ombra.webp" alt="foto_pendolo_di_foucault"
+                            class="foto-specifiche-sale">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-5 order-2 order-md-1">
+                        <img src="img/sale-attivita/luce/riflessione.webp" alt="foto_terremoto"
+                            class="foto-specifiche-sale">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-1 margin-bottom-mobile order-1 order-md-2">
+                        <p class="font-size-sottotitoli-attività mb-2">PERCORSI DI LUCE</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0 ">L’ottica geometrica studia riflessione
+                            e rifrazione. La luce rimbalza negli specchi e devia nei mezzi densi, seguendo il percorso
+                            più veloce (principio di Fermat). Oltre un certo angolo, si ha riflessione totale, usata
+                            nelle fibre ottiche per trasportare luce senza perdite.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-6">
+                        <p class="font-size-sottotitoli-attività mb-2">EFFETTO FOSFORO</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0 ">La luce eccita gli elettroni che
+                            tornano allo
+                            stato fondamentale emettendo fluorescenza (istantanea) o fosforescenza (ritardata, visibile
+                            al buio). Entrambi i fenomeni funzionano meglio con luce ultravioletta, come quella del
+                            Sole. Alcuni detersivi, dentifrici ed evidenziatori sfruttano la fluorescenza per apparire
+                            più brillanti senza rimuovere lo sporco.</p>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 margin-top-mobile">
+                        <img src="img/sale-attivita/luce/fosforescente.webp" alt="foto_tsunami"
+                            class="foto-specifiche-sale">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-5 order-2 order-md-1">
+                        <img src="img/sale-attivita/luce/termocamera.webp" alt="foto_morfologia"
+                            class="foto-specifiche-sale">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-1 margin-bottom-mobile order-1 order-md-2">
+                        <p class="font-size-sottotitoli-attività mb-2">OCCHIO AL CALORE</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0">Lo spettro elettromagnetico comprende
+                            onde di diversa energia, da gamma a radio. L’occhio percepisce solo la luce visibile.
+                            L’infrarosso, appena sotto il rosso, è radiazione termica: più un oggetto è caldo, più ne
+                            emette. La termocamera converte l’infrarosso in immagini visibili, mostrando zone calde e
+                            fredde, utile anche in edilizia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- frecce -->
+        <div class="row align-items-center justify-content-center sfondo-attività m-0" id="laboratori">
+            <div class="col-10 col-md-3 padding-bottom text-center">
+                <a href="onde.html" class="bottone-attivita">
+                    < ONDE</a>
+            </div>
+            <div class="col-10 col-md-3 padding-bottom text-center">
+                <a href="percezione.html" class="bottone-attivita">PERCEZIONE ></a>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row d-flex pb-5 pt-5 m-0 navbar-row footer">
+
+            <div class="col-2 col-md-2 offset-md-1">
+                <div class="logo">
+                    <img src="img/logo_footer.webp" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Info</strong></li>
+                    <li><a href="caffe-del-bali.html">Il Caffè del Balì</a></li>
+                    <li><a href="lavora-con-noi.html">Lavora con noi</a></li>
+                    <li><a href="alternanza-scuola-lavoro.html">Alternanza scuola/lavoro</a></li>
+                    <li><a href="compleanni.html">Compleanni</a></li>
+                    <li><a href="noleggio-struttura.html">Noleggio struttura</a></li>
+                </ul>
+            </div>
+
+            <!-- Contatti -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Contatti</strong></li>
+                    <li>Fondazione "Villa del<br> Balì"</li>
+                    <li><a href="https://www.google.it/maps/place/Museo+del+Bal%C3%AC">Loc San Martino snc<br>61036
+                            Colli al Metauro (PU)</a></li>
+                    <li><a href="tel:+0721892390">0721 892390</a></li>
+                    <li><a href="mailto:info@museodelbali.it">info@museodelbali.it</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Social</strong></li>
+                    <li><a href="https://www.facebook.com/museodelbali">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/museodelbali/">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/user/museodelbali">Youtube</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- SCROLL UP BUTTON -->
+        <a href="#" id="scrollUpButton" title="Torna su">&#9650;</a>
+
+    </div>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Toggle dropdown in mobile menu
+        const dropdowns = document.querySelectorAll('.mobile-menu .dropdown > span');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+
+        const scrollButton = document.getElementById('scrollUpButton');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {  // compare dopo 100px di scroll
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        });
+        scrollButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

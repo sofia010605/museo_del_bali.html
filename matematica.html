@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo del Balì</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.webp">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/attivita.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+
+        <!-- MENU -->
+        <div class="row d-flex align-items-center px-3 py-3 m-0 navbar-row">
+
+            <!-- logo -->
+            <div class="col-4 col-md-4">
+                <div class="logo">
+                    <img src="img/logo_menu.svg" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-7 col-md-3"></div>
+
+            <!-- desktop menu -->
+            <div class="col-1 col-md-5 d-none d-md-flex justify-content-end">
+                <div class="lista list-unstyled d-flex m-0 p-0">
+                    <ul>
+                        <li><a href="index.html" class="font-size-menù home">HOME</a></li>
+                        <li><a href="visita.html" class="font-size-menù menù-visita">VISITA</a></li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                                <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                                    creativi</a>
+                                <a href="lab-planetario-osservatorio.html#planetario"
+                                    class="dropdown-item">planetario</a>
+                                <a href="lab-planetario-osservatorio.html#osservatorio"
+                                    class="dropdown-item">osservatorio</a>
+                            </div>
+                        </li>
+
+                        <li class="dropdown">
+                            <span class="font-size-menù menù-scuole">SCUOLE</span>
+                            <div class="dropdown-menu font-size-paragrafi">
+                                <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                                <a href="alternanza-scuola-lavoro.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                            </div>
+                        </li>
+
+                        <li><a href="storico.html" class="font-size-menù menù-storico">STORICO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- hamburger -->
+            <div class="col-1 d-md-none d-flex justify-content-end mobile-menù">
+                <img src="img/menu-hamburger-svgrepo-com.svg" alt="menu" class="hamburger" id="menuToggle">
+            </div>
+
+            <!-- mobile menu -->
+            <div id="mobileMenu" class="mobile-menu d-md-none">
+                <a href="index.html" class="font-size-menù home">HOME</a>
+                <a href="visita.html" class="font-size-menù menù-visita">VISITA</a>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-attività">ATTIVITÀ</span>
+                    <div class="dropdown-menu">
+                        <a href="sale-interattive.html" class="dropdown-item">sale interattive</a>
+                        <a href="lab-planetario-osservatorio.html#laboratori" class="dropdown-item">laboratori
+                            creativi</a>
+                        <a href="lab-planetario-osservatorio.html#planetario" class="dropdown-item">planetario</a>
+                        <a href="lab-planetario-osservatorio.html#osservatorio" class="dropdown-item">osservatorio</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="font-size-menù menù-scuole">SCUOLE</span>
+                    <div class="dropdown-menu">
+                        <a href="scuole.html" class="dropdown-item">organizza la visita</a>
+                        <a href="alternanza-scuola-lavoro.html" class="dropdown-item">alternanza scuola-lavoro</a>
+                    </div>
+                </div>
+
+                <a href="storico.html" class="font-size-menù menù-storico">STORICO</a>
+            </div>
+
+        </div>
+
+
+        <!-- matematica -->
+        <div class="row align-items-start justify-content-center sfondo-attività m-0" id="laboratori">
+            <div class="col-12 col-md-6 padding-top">
+                <div class="margine-sinistro margine-destro-mobile">
+                    <p class="font-size-titoli">02 MATEMATICA</p>
+                    <p class="font-size-sottotitoli-attività">Non sono soltanto numeri: vieni a provare!</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1 offset-1 padding-bottom padding-top m-0">
+                <div class="margine-destro">
+                    <p class="font-size-paragrafi">
+                        Ciò che ci circonda (noi compresi!) è governato da precise quanto affascinanti regole
+                        matematiche. La matematica vive nel mondo astratto delle idee, ma in questa stanza potrai
+                        visualizzarla e metterla in pratica concretamente.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- descrizioni sale -->
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-6">
+                        <p class="font-size-sottotitoli-attività mb-2">TEOREMA DI PITAGORA</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0 ">Il teorema di Pitagora afferma che in
+                            un triangolo rettangolo l’area della figura costruita sull’ipotenusa è uguale alla somma
+                            delle aree delle figure costruite sui cateti. Si usa il quadrato perché consente
+                            l’espressione algebrica c² = a² + b², ma il teorema vale per qualunque figura geometrica.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 margin-top-mobile">
+                        <img src="img/sale-attivita/matematica/teorema_di_pitagora.webp" alt="foto_pendolo_di_foucault"
+                            class="foto-specifiche-sale">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-5 order-2 order-md-1">
+                        <img src="img/sale-attivita/matematica/probabilità_statistica.webp" alt="foto_terremoto"
+                            class="foto-specifiche-sale">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-1 order-1 order-md-2 margin-bottom-mobile">
+                        <p class="font-size-sottotitoli-attività mb-2">PROBABILITÀ E STATISTICA</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0 ">Le biglie tendono a concentrarsi al
+                            centro formando una curva simile alla distribuzione normale (curva gaussiana). Questo
+                            avviene perché, urtando i chiodi, hanno la stessa probabilità di deviare a destra o a
+                            sinistra: è più probabile che alternino le deviazioni e finiscano al centro, mentre solo
+                            poche deviano quasi sempre da un lato. Il fenomeno segue le stesse leggi probabilistiche del
+                            gioco “testa o croce”.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-6">
+                        <p class="font-size-sottotitoli-attività mb-2">PENDOLI E CAOS</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0 ">Anche se i pendoli partono da
+                            condizioni iniziali quasi identiche, dopo poco tempo si muovono in modo diverso perché il
+                            sistema è caotico e molto sensibile alle condizioni iniziali. Nei sistemi caotici, infatti,
+                            piccole differenze iniziali producono evoluzioni completamente diverse. Per questo la teoria
+                            del caos è fondamentale in meteorologia: il clima è un sistema caotico e le previsioni sono
+                            affidabili solo nel breve periodo.</p>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 margin-top-mobile">
+                        <img src="img/sale-attivita/matematica/caos.webp" alt="foto_tsunami"
+                            class="foto-specifiche-sale">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-5 order-2 order-md-1">
+                        <img src="img/sale-attivita/matematica/numeri_primi.webp" alt="foto_morfologia"
+                            class="foto-specifiche-sale">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-1 margin-bottom-mobile order-1 order-md-2">
+                        <p class="font-size-sottotitoli-attività mb-2">NUMERI PRIMI</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0">I numeri primi sono numeri divisibili
+                            solo per 1 e per se stessi. Il metodo per individuarli si chiama crivello di Eratostene, un
+                            antico algoritmo ancora oggi utilizzato per la sua efficacia. I numeri primi sono
+                            fondamentali in matematica e hanno applicazioni moderne come la crittografia. Quando due
+                            numeri primi sono separati solo da un numero pari si chiamano “primi gemelli”.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-start justify-content-start sfondo-attività position-relative m-0 p-0">
+            <div class="rettangolo-bianco">
+                <div class="row align-items-start">
+                    <div class="col-12 col-md-6">
+                        <p class="font-size-sottotitoli-attività mb-2">SPECCHI</p>
+                        <p class="font-size-paragrafi margin-bottom-mobile p-0">La camera a specchi con angoli di 60°
+                            moltiplica l’immagine all’infinito e permette di comprendere la tassellazione del piano,
+                            cioè la suddivisione del piano in figure identiche senza sovrapposizioni né spazi vuoti.
+                            Solo tre poligoni regolari possono tassellare il piano: triangolo equilatero, quadrato ed
+                            esagono. Triangoli e quadrati consentono infinite disposizioni, mentre l’esagono regolare
+                            ammette un’unica tassellatura.</p>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 margin-top-mobile">
+                        <img src="img/sale-attivita/matematica/curve.webp" alt="foto_morfologia"
+                            class="foto-specifiche-sale">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- frecce -->
+        <div class="row align-items-center justify-content-center sfondo-attività m-0" id="laboratori">
+            <div class="col-10 col-md-3 padding-bottom text-center">
+                <a href="scienze-della-terra.html" class="bottone-attivita">
+                    < SCIENZE DELLA TERRA</a>
+            </div>
+            <div class="col-10 col-md-3  padding-bottom text-center">
+                <a href="astronomia.html" class="bottone-attivita">ASTRONOMIA ></a>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row d-flex pb-5 pt-5 m-0 navbar-row footer">
+
+            <div class="col-2 col-md-2 offset-md-1">
+                <div class="logo">
+                    <img src="img/logo_footer.webp" alt="logo" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Info</strong></li>
+                    <li><a href="caffe-del-bali.html">Il Caffè del Balì</a></li>
+                    <li><a href="lavora-con-noi.html">Lavora con noi</a></li>
+                    <li><a href="alternanza-scuola-lavoro.html">Alternanza scuola/lavoro</a></li>
+                    <li><a href="compleanni.html">Compleanni</a></li>
+                    <li><a href="noleggio-struttura.html">Noleggio struttura</a></li>
+                </ul>
+            </div>
+
+            <!-- Contatti -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Contatti</strong></li>
+                    <li>Fondazione "Villa del<br> Balì"</li>
+                    <li><a href="https://www.google.it/maps/place/Museo+del+Bal%C3%AC">Loc San Martino snc<br>61036
+                            Colli al Metauro (PU)</a></li>
+                    <li><a href="tel:+0721892390">0721 892390</a></li>
+                    <li><a href="mailto:info@museodelbali.it">info@museodelbali.it</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="col-2 col-md-2 offset-md-1">
+                <ul class="testo-footer">
+                    <li class="titoli-footer"><strong>Social</strong></li>
+                    <li><a href="https://www.facebook.com/museodelbali">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/museodelbali/">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/user/museodelbali">Youtube</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- SCROLL UP BUTTON -->
+        <a href="#" id="scrollUpButton" title="Torna su">&#9650;</a>
+
+    </div>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Toggle dropdown in mobile menu
+        const dropdowns = document.querySelectorAll('.mobile-menu .dropdown > span');
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('click', function (e) {
+                e.preventDefault();
+                this.parentElement.classList.toggle('open');
+            });
+        });
+
+
+        const scrollButton = document.getElementById('scrollUpButton');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {  // compare dopo 100px di scroll
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        });
+        scrollButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

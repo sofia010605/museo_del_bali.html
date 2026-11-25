@@ -1,0 +1,260 @@
+/* storico */
+.immagine-testata-storico {
+    height: 70vh;
+}
+
+.titolo-storico-eventi {
+    background-color: rgba(147, 230, 108, 0.3);
+    color: #000000;
+    padding: 80px 40px;
+    align-items: center;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.storico-eventi-titolo {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.foto-storico {
+    max-width: 100%;
+    height: 50vh;
+}
+
+.link-storico {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.ispirazioni-storico {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    padding-top: 40px;
+    transition: filter 0.3s ease;
+}
+
+.link-storico:hover .ispirazioni-storico {
+    filter: brightness(0.7) sepia(100%) hue-rotate(50deg) saturate(200%);
+}
+
+.padding-storico {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.botton-storico {
+    padding-bottom: 40px;
+}
+
+.sottotitolo-storico {
+    padding-top: 10px;
+    color: #3a751e;
+}
+
+.immagine-testata-storico-1 {
+    height: 70vh;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.titolo-storico-eventi-1 {
+    background-color: rgba(147, 230, 108, 0.3);
+    color: #000000;
+    padding: 80px 40px;
+    align-items: center;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.colore-testo-storico {
+    color: #3a751e;
+    font-weight: bold;
+}
+
+.colore-testo-storico-2 {
+    color: #3a751e;
+    font-weight: bold;
+}
+
+.pagina-img-storico-container {
+    padding-top: 40px;
+    padding-right: 40px;
+    overflow-x: hidden;
+}
+
+.pagina-img-storico {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.padding-storico-pagina {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.pagina-img-2-storico-container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-img-2-storico {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+
+/* storico 3 */
+.lista-storico {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.padding-top-storico {
+    padding-top: 40px;
+}
+
+
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+
+    /* Body senza margini */
+    body {
+        margin: 0 !important;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .padding-top-mobile {
+        padding-top: 40px;
+    }
+
+    /* Container principale senza padding */
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .immagine-testata-storico {
+        width: 100%;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        object-fit: cover;
+    }
+
+    .immagine-testata-storico-1 {
+        height: 40vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    /* Navbar con padding */
+    .navbar-row {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .titolo-storico-eventi {
+        padding: 40px 40px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .titolo-storico-eventi-1 {
+        padding: 40px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    /* Fix per le colonne nella sezione titolo */
+    .titolo-storico-eventi-1 .col-12,
+    .titolo-storico-eventi-1 .col-md-5,
+    .titolo-storico-eventi-1 .col-md-6 {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Resetta gli offset mobile */
+    .titolo-storico-eventi-1 [class*="offset-"] {
+        margin-left: 0;
+    }
+
+    /* Footer */
+    .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .padding-storico {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .padding-storico-pagina {
+        padding: 0 40px 0 40px;
+    }
+
+    .ispirazioni-storico {
+        padding-top: 40px;
+    }
+
+    .botton-storico {
+        padding-bottom: 40px;
+    }
+
+    .pagina-img-storico-container {
+        padding: 40px;
+    }
+
+    .pagina-img-2-storico-container {
+        padding: 40px;
+    }
+
+    .pagina-img-storico,
+    .pagina-img-2-storico {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Assicura che tutte le row siano a piena larghezza */
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Fix per tutte le colonne su mobile */
+    [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Riapplica padding solo dove serve */
+    .padding-storico-pagina,
+    .pagina-img-storico-container,
+    .pagina-img-2-storico-container {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
